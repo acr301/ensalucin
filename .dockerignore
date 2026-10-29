@@ -1,0 +1,5 @@
+.git
+bin
+*.o
+*.elf
+*.bin
