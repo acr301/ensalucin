@@ -1,0 +1,3 @@
+#!/bin/sh
+# Lanzador para estudiantes: ejecuta asmlab en el contenedor sobre el directorio actual.
+exec docker run --rm -i -v "$PWD":/work ${ASMLAB_IMAGE:-ensalucin} "$@"
